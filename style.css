@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.mid-content{
+    max-width: 1300px;
+    margin: auto;
+}
+.color{
+    color: #fff;
+}
+/* main css start */
+/* header section area start */
+.header{
+    background-color: rgb(250, 250, 250);
+    height: 75px;
+}
+.header-logo {
+    line-height: 130px;
+}
+.header-menu{}
+.header-menu ul{
+    list-style-type: none;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a {
+    color: #000;
+    display: block;
+    text-decoration: none;
+    line-height: 75px;
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+/* header section area end */
+/* banner section area start */
+.banner-section{
+    background-image: url("https://i.ibb.co/b2GqNXn/kobu-agency-IWLR561-Yb-MY-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-attachment: fixed;
+    height: 550px;
+    
+}
+.banner{
+    padding-top: 140px;
+}
+.banner h4 {
+    font-size: 27px;
+}
+.banner h1 {
+    margin: 40px 0;
+    font-size: 58px;
+}
+.banner a {
+    margin-right: 10px;
+    padding: 18px 30px;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+}
+
+i.fa.fa-android {
+    padding-right: 10px;
+}
+i.fa-brands.fa-apple {
+    padding-right: 10px;
+}
+.banner a:hover{
+    background-color: #db9e35;
+    color: #fff;
+}
+/* banner section area end */
+/* pricing table section start */
+.pricing-table-section{
+    background-color: #f7f9ff;
+    padding: 50px;
+}
+.pricing-table-section h1 {
+    font-size: 60px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+.pricing-table-section .p-text {
+    margin-bottom: 77px;
+}
+.pricing-table-item {
+    width: 31.3%;
+    margin-right: 2%;
+    background-color: #fff;
+    padding-bottom: 25px;
+}
+.p-header{
+    padding: 30px;
+    border-bottom: 1px solid #add;
+    line-height: 50px;
+}
+.p-header h4 {
+    font-size: 27px;
+    padding-bottom: 30px;
+}
+.p-header h2 {
+    background-color: #4444;
+    font-size: 45px;
+}
+.p-header h2 span {
+    font-size: 20px;
+    font-weight: 500;
+}
+.p-header h5 {
+    font-size: 25px;
+    padding: 37px 0px;
+}
+.p-header p {
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+.p-content{}
+.p-content ul {
+    list-style-type: none;
+    padding-top: 53px;
+}
+.p-content ul li {
+    line-height: 60px;
+    font-size: 22px;
+}
+.p-content ul li span {
+    font-size: 30px;
+    color: #e79230;
+    padding: 20px;
+}
+
+.p-button button {
+    padding: 92px 30px;
+    padding: 12px 23px;
+    margin-left: 116px;
+    margin-top: 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 5px 17px 0px #7777;
+}
+
+.pricing-table-item:hover .p-header{
+    background-color: #ef972f;
+    color: #fff;
+}
+.pricing-table-item:hover .p-button button{
+    background-color: #ef972f;
+    color: #fff;
+}
+
+/* pricing table section end */
+/* team section area start */
+.team-section{
+    background-color: #fff;
+    padding-bottom: 460px;
+}
+.team-section h2 {
+    padding: 67px;
+    text-align: center;
+    font-size: 31px;
+    font-weight: 600;
+}
+.team-section .team-img {
+    width: 22%;
+    margin-right: 2%;
+    background-color: #fff;
+    border: 5px solid darkorange;
+    border-style: double;
+}
+.team-img h3 {
+    padding-top: 25px;
+}
+.team-img span{
+    line-height: 60px;
+}
+/* team section area end */
+/* newsletter section area start */
+.newsletter {
+    background-color: #f7f9ff;
+    padding-bottom: 68px;
+}
+.newsletter p{
+    padding: 50px;
+}
+.newsletter h2 {
+    padding-bottom: 30px;
+    font-size: 42px;
+    font-weight: 600;
+}
+.email-btn {
+    width: 390px;
+    padding: 15px 15px;
+    border: 3px solid #c9cf8e;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px #c9cf8e;
+}
+.newsletter .form .submit-btn {
+    width: 225px;
+    padding: 15px;
+    background-color: #aa972c;
+    box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.75);
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+}
+.newsletter .form .submit-btn:hover{
+    background-color: #fff;
+    color: #aa972c;
+    box-shadow: 0px 1px 5px 1px  #aa972c;
+    border: 2px solid #aa972c;
+}
+/* newsletter section area end */
+/* service section area start */
+.service-section{}
+.service-section .img-left{
+    width: 30%;
+}
+.service-section .design-area{
+    width: 66%;
+}
+.service-section h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 48px;
+}
+.design-area ul{}
+.design-area ul li {
+    list-style-type: order;
+    list-style-position: inside;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 79px;
+}
+
+/* service section area end */
+/* testimonoal section area start */
+.testimonial-section{
+    padding: 100px 0;
+    background-color:#eeeff4;
+}
+.section-title p {
+    padding-bottom: 50px;
+}
+.section-title h2 {
+    font-size: 40px;
+}
+.testimonial-items{
+    margin-top: 100px;
+}
+
+.i-item{
+    width: 31%;
+    margin-right: 2%;
+}
+
+.t-content p{
+    background: #fff;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223,.2);
+    padding: 0px 40px;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 130px;
+}
+.t-content .color-pic{
+    background: #eeeff4;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223,.2);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 130px;
+}
+.t-content p {
+    padding: 41px 40px;
+    font-size: 20px;
+    line-height: 44px;
+}
+.t-content  .t-img{
+    border: 5px solid #aa972c;
+    margin-left: 30px;
+}
+.t-content .t-user-bio {
+    font-size: 19px;
+    margin-left: 17px;
+    margin-top: 18px;
+}
+.t-content p::after{
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 10px 0 10px;
+    border-color: #ffff transparent transparent transparent;
+    z-index: 1;
+} 
+.t-content{
+    position: relative;
+}
+.quote{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    font-size: 5.1rem;
+    color: #cccccc;
+    opacity: 0.3;
+    z-index: 1;
+}
+/* testimonoal section area end */
+/* contact section area start */
+.t-contact h3 {
+    padding-top: 60px;
+    font-size: 25px;
+}
+.t-contact p {
+    padding: 30px 360px;
+    font-size: 20px;
+}
+.from-contact{
+    display: inline-block;
+    line-height: 60px;
+}
+.c {
+    width: 587px;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+}
+.text1 {
+    width: 273px;
+    padding: 10px;
+    margin-right: 7px;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+.btn-contact {
+    width: 205px;
+    font-size: 18px;
+    background-color: #aa972c;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+    height: 45px;
+}
+.btn-contact:hover{
+    background-color: #fff;
+    color: #aa972c;
+    box-shadow: 0px 1px 5px 1px  #aa972c;
+    border: 2px solid #aa972c;
+}
+.from-contact textarea{
+    border-radius: 5px;
+    display: block;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+/* contact section area end */
+.footer {
+    padding: 20px 0;
+    margin-top: 60px;
+}
+.footer p {
+    font-size: 20px;
+}
+.footer-contact-from .w100{
+    width: '\f26e';
+}
+.footer-contact-from .w50{
+    width: 245px;
+}
+
+.footer-contact-from .default-input {
+    margin-bottom: 40px;
+}
+.footer-contact-from {
+    margin-top: 60px;
+}
+.footer-contact-from .submit-btn {
+    margin-left: 0;
+}
+.footer-contact-from textarea {
+    height: 80px;
+}
+.content-right-form p {
+    font-size: 21px;
+    color: #767676;
+    line-height: 1.8em;
+}
+.content-right-form h4 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+.footer-contact-from {
+    margin-top: 60px;
+}
